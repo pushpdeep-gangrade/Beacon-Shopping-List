@@ -16,7 +16,13 @@ https://youtu.be/NrmUqIN4C3k
 
 ## API Design & Implementation <a name="api"></a>
 
-<img src="https://github.com/pushpdeep-gangrade/Beacon-Shopping-List/blob/main/Sensors.jpg?raw=true" width="100" />
+### Beacons
+<img src="https://github.com/pushpdeep-gangrade/Beacon-Shopping-List/blob/main/Sensors.jpg?raw=true" width="200" />
+
+### Grocery Section
+<img src="https://github.com/pushpdeep-gangrade/Beacon-Shopping-List/blob/main/GrocerySection.jpg?raw=true" width="200" />
+<img src="https://github.com/pushpdeep-gangrade/Beacon-Shopping-List/blob/main/Grocery2.jpg?raw=true" width="200" />
+
 
 ## Authentication <a name="auth"></a>
 
