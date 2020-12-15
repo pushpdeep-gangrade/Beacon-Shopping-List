@@ -7,7 +7,7 @@
 - Rockford Stoller
 
 ## Contents
-- [Video Demos](#demo)
+- [Video Demo](#demo)
 - [API Design & Implementation](#api)
 - [Authentication](#auth)
 
@@ -29,11 +29,14 @@ discount.json that are assigned to that region:
 - The application consists of a single window that enables the user to view the discounted items
 around him while shopping in the store.
 - The list of discounted items shows the item name, item image, discount, price and region.
-- The regions include, "grocery", "lifesytle" and "produce". You are provided with BLE beacons which you should assign each beacon to represent a region. Please note that the provided discount information provides a region attribute, which describes the region that a specific product is located.
-- When the user is in the store, the app should locate the closest beacon and present only the products for the region belonging to the closest beacon.
-- As the user moves the app should contact the api to get the list of discounted items in the closest region, and the list should be refreshed to show the retrieved list of discounted products for the closest region.
-- Your application should avoid oscillating between regions, which is when the app during a scan assumes region 1 then in the next scan assumes region 2, and then region 1. This case might happen when the user is equidistant from multiple beacons or due to errors in the distance estimations. This will affect the user experience and your app should present a usable solution to this problem.
-- If the app is unable to locate any beacons it should display all the discounted products sorted by region.
+- The regions include, "grocery", "lifesytle" and "produce". 
+- When the user is in the store, the app locates the closest beacon and presents only the products
+  for that region.
+- As the user moves the app should contact the API to get the list of discounted items in the closest 
+  region, and the list should be refreshed to show the retrieved list of discounted products for that region.
+- The app avoids oscillating between regions, such as when a user is close to multiple sensors for different regions. 
+- If the app is unable to locate any beacons, such as when a user denies bluetooth permission, it displays 
+  all the discounted products sorted by region.
 
 ### Beacons
 <img src="https://github.com/pushpdeep-gangrade/Beacon-Shopping-List/blob/main/Sensors.jpg?raw=true" width="200" />
