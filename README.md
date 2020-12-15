@@ -16,7 +16,7 @@ https://youtu.be/NrmUqIN4C3k
 
 ## API Design & Implementation <a name="api"></a>
 
-![Beacons](https://github.com/pushpdeep-gangrade/Beacon-Shopping-List/blob/main/Sensors.jpg?raw=true | width=100)
+<img src="https://github.com/pushpdeep-gangrade/Beacon-Shopping-List/blob/main/Sensors.jpg?raw=true" width="100" />
 
 ## Authentication <a name="auth"></a>
 
